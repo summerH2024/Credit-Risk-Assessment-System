@@ -1,0 +1,6 @@
+﻿模型,验证集AUC,验证集KS,交叉验证最优AUC,最优参数,模型文件
+LightGBM,0.868599006146003,0.5844578587465966,0.8647158442377153,"{'colsample_bytree': 0.85, 'learning_rate': 0.03, 'max_depth': 4, 'min_child_samples': 80, 'n_estimators': 260, 'num_leaves': 31, 'reg_alpha': 0.1, 'reg_lambda': 1.0, 'subsample': 0.85}",lightgbm.pkl
+XGBoost,0.8684537450800575,0.5844368361111866,0.8647997400723735,"{'colsample_bytree': 0.85, 'learning_rate': 0.03, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 380, 'reg_alpha': 0.1, 'reg_lambda': 1.0, 'subsample': 0.85}",xgboost.pkl
+Random Forest,0.8670888504760603,0.5817070112716066,0.8629616840313549,"{'max_depth': 9, 'min_samples_leaf': 40, 'n_estimators': 240}",random_forest.pkl
+Logistic Regression,0.8604286925123341,0.5679816354808638,0.8547381809677645,"{'C': 0.05, 'penalty': 'l1'}",logistic_regression.pkl
+Decision Tree,0.8588432383944585,0.5614113492835155,0.8545609411942505,"{'max_depth': 6, 'min_samples_leaf': 150}",decision_tree.pkl
